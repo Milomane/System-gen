@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Milomane\.Rider2019.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Milomane\.Rider2019.3\system\resharper-host\Local\Transient\ReSharperHost\v193\SolutionCaches\_System Gen.-858102598.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Milomane\Documents\Jeux Unity\Projects\System gen" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Editor" t="Include">
+          <e p="PlanetEditor.cs" t="Include" />
+        </e>
+        <e p="Scripts" t="Include">
+          <e p="Planet.cs" t="Include" />
+          <e p="ScriptableObject" t="Include">
+            <e p="ColoursSettings.cs" t="Include" />
+            <e p="ShapeSettings.cs" t="Include" />
+          </e>
+          <e p="ShapeGenerator.cs" t="Include" />
+          <e p="SimpleCameraController.cs" t="Include" />
+          <e p="TerrainFace.cs" t="Include" />
+        </e>
+        <e p="TutorialInfo" t="Include">
+          <e p="Scripts" t="Include">
+            <e p="Editor" t="Include">
+              <e p="ReadmeEditor.cs" t="Include" />
+            </e>
+            <e p="Readme.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="System Gen.sln" t="IncludeFlat" />
+      <e p="Temp\Bin" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
