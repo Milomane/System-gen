@@ -56,9 +56,6 @@
         },
         {
             "m_Id": "bbd92d4eabfa4e7d81bd325851e1c695"
-        },
-        {
-            "m_Id": "e34b0a3424924e03b3a11bb54d3ee470"
         }
     ],
     "m_GroupDatas": [],
@@ -116,20 +113,6 @@
             "m_InputSlot": {
                 "m_Node": {
                     "m_Id": "8f541c730f47456a93e3b035f7d750d1"
-                },
-                "m_SlotId": 0
-            }
-        },
-        {
-            "m_OutputSlot": {
-                "m_Node": {
-                    "m_Id": "e34b0a3424924e03b3a11bb54d3ee470"
-                },
-                "m_SlotId": 0
-            },
-            "m_InputSlot": {
-                "m_Node": {
-                    "m_Id": "7362a96c7127438d9da96f147dce0d89"
                 },
                 "m_SlotId": 0
             }
@@ -316,29 +299,6 @@
         "m_SerializableColors": []
     },
     "m_SerializedDescriptor": "SurfaceDescription.Emission"
-}
-
-{
-    "m_SGVersion": 0,
-    "m_Type": "UnityEditor.ShaderGraph.Vector3MaterialSlot",
-    "m_ObjectId": "3283e8abcb5c4845af2d8c37853e5126",
-    "m_Id": 0,
-    "m_DisplayName": "Out",
-    "m_SlotType": 1,
-    "m_Hidden": false,
-    "m_ShaderOutputName": "Out",
-    "m_StageCapability": 3,
-    "m_Value": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 1.0
-    },
-    "m_DefaultValue": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-    },
-    "m_Labels": []
 }
 
 {
@@ -670,10 +630,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -555.0000610351563,
-            "y": 73.0,
+            "x": -512.0,
+            "y": 212.99998474121095,
             "width": 116.00000762939453,
-            "height": 94.00000762939453
+            "height": 94.0
         }
     },
     "m_Slots": [
@@ -1012,39 +972,6 @@
     },
     "m_Labels": [],
     "m_Space": 0
-}
-
-{
-    "m_SGVersion": 0,
-    "m_Type": "UnityEditor.ShaderGraph.NormalVectorNode",
-    "m_ObjectId": "e34b0a3424924e03b3a11bb54d3ee470",
-    "m_Group": {
-        "m_Id": ""
-    },
-    "m_Name": "Normal Vector",
-    "m_DrawState": {
-        "m_Expanded": true,
-        "m_Position": {
-            "serializedVersion": "2",
-            "x": -295.0,
-            "y": -92.99999237060547,
-            "width": 208.0,
-            "height": 316.0
-        }
-    },
-    "m_Slots": [
-        {
-            "m_Id": "3283e8abcb5c4845af2d8c37853e5126"
-        }
-    ],
-    "synonyms": [],
-    "m_Precision": 0,
-    "m_PreviewExpanded": true,
-    "m_PreviewMode": 2,
-    "m_CustomColors": {
-        "m_SerializableColors": []
-    },
-    "m_Space": 2
 }
 
 {

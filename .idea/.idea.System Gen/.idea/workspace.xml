@@ -11,13 +11,18 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TerrainFace.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScriptableObject/ShapeSettings.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/ADFA4B62-4008-4918-9388-DF71C9E26E89/0e/1b17e4ed/Mesh.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScriptableObject/ColoursSettings.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Editor/PlanetEditor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NoiseSettings.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Planet.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$USER_HOME$/Desktop/Generator.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ShapeGenerator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/ADFA4B62-4008-4918-9388-DF71C9E26E89/4a/dd0df045/Renderer.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TerrainFace.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NoiseFilter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SimplexNoise/Noise.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Editor/PlanetEditor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Desktop/Generator.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -29,10 +34,14 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Generator.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ShapeSettings.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ScriptableObject/ColoursSettings.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ShapeGenerator.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TerrainFace.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Planet.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SimplexNoise/Noise.cs" />
         <option value="$PROJECT_DIR$/Assets/Editor/PlanetEditor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/NoiseSettings.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/NoiseFilter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ShapeGenerator.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ScriptableObject/ShapeSettings.cs" />
       </list>
     </option>
   </component>
@@ -90,7 +99,7 @@
       <workItem from="1625331028047" duration="172000" />
       <workItem from="1625331212331" duration="10255000" />
       <workItem from="1625343192258" duration="759000" />
-      <workItem from="1625344018956" duration="3755000" />
+      <workItem from="1625344018956" duration="7176000" />
     </task>
     <servers />
   </component>
