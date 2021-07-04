@@ -12,4 +12,62 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 815efaa2b83960146a3e5c2d7b8af9f9, type: 3}
   m_Name: Colour
   m_EditorClassIdentifier: 
-  planetColour: {r: 0.6415094, g: 0.47230625, b: 0.45692417, a: 1}
+  textureGradient:
+    serializedVersion: 2
+    key0: {r: 0, g: 0.779325, b: 1, a: 1}
+    key1: {r: 0.9150943, g: 0.85816896, b: 0.21150766, a: 1}
+    key2: {r: 0.3534324, g: 0.92156863, b: 0.28235292, a: 0}
+    key3: {r: 0.6117647, g: 0.69803923, b: 0.6039216, a: 0}
+    key4: {r: 0.6133356, g: 0.6981132, b: 0.6026166, a: 0}
+    key5: {r: 1, g: 1, b: 1, a: 0}
+    key6: {r: 1, g: 1, b: 1, a: 0}
+    key7: {r: 0, g: 0, b: 0, a: 0}
+    ctime0: 0
+    ctime1: 386
+    ctime2: 7325
+    ctime3: 13300
+    ctime4: 23901
+    ctime5: 34117
+    ctime6: 65535
+    ctime7: 0
+    atime0: 0
+    atime1: 65535
+    atime2: 0
+    atime3: 0
+    atime4: 0
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_Mode: 0
+    m_NumColorKeys: 7
+    m_NumAlphaKeys: 2
+  smoothnessGradient:
+    serializedVersion: 2
+    key0: {r: 0.8113208, g: 0.8113208, b: 0.8113208, a: 1}
+    key1: {r: 0, g: 0, b: 0, a: 1}
+    key2: {r: 0, g: 0, b: 0, a: 0}
+    key3: {r: 0.6132076, g: 0.6132076, b: 0.6132076, a: 0}
+    key4: {r: 0.7830189, g: 0.7830189, b: 0.7830189, a: 0}
+    key5: {r: 0.6603774, g: 0.6603774, b: 0.6603774, a: 0}
+    key6: {r: 0, g: 0, b: 0, a: 0}
+    key7: {r: 0, g: 0, b: 0, a: 0}
+    ctime0: 0
+    ctime1: 386
+    ctime2: 11565
+    ctime3: 15035
+    ctime4: 23130
+    ctime5: 38550
+    ctime6: 65535
+    ctime7: 65535
+    atime0: 0
+    atime1: 65535
+    atime2: 0
+    atime3: 0
+    atime4: 0
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_Mode: 0
+    m_NumColorKeys: 7
+    m_NumAlphaKeys: 2
+  planetMaterial: {fileID: 2100000, guid: 9e15643f940ee624e8ad3d6237a367e1, type: 2}

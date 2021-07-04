@@ -20,12 +20,13 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/RigidNoiseFilter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ShapeGenerator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/ADFA4B62-4008-4918-9388-DF71C9E26E89/4a/dd0df045/Renderer.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Editor/ConditionalHidePropertyDrawer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MinMax.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TerrainFace.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SimpleNoiseFilter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SimplexNoise/Noise.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Editor/PlanetEditor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/Desktop/Generator.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ColourGenerator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/INoiseFilter.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -37,21 +38,23 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Class/Planet.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Generator.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ShapeSettings.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ScriptableObject/ColoursSettings.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TerrainFace.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SimplexNoise/Noise.cs" />
         <option value="$PROJECT_DIR$/Assets/Editor/PlanetEditor.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ScriptableObject/ShapeSettings.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/NoiseFilter.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/INoiseFilter.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ShapeGenerator.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SimpleNoiseFilter.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/RigidNoiseFilter.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/NoiseFilterFactory.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Editor/ConditionalHideAttribute.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Editor/ConditionalHidePropertyDrawer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/NoiseSettings.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MinMax.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ShapeGenerator.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Planet.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ScriptableObject/ColoursSettings.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ColourGenerator.cs" />
       </list>
     </option>
   </component>
@@ -110,7 +113,7 @@
       <workItem from="1625331212331" duration="10255000" />
       <workItem from="1625343192258" duration="759000" />
       <workItem from="1625344018956" duration="7677000" />
-      <workItem from="1625386004327" duration="2946000" />
+      <workItem from="1625386004327" duration="7020000" />
     </task>
     <servers />
   </component>
@@ -120,9 +123,9 @@
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
   <component name="WindowStateProjectService">
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1625388803077">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1625390414599">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1625388803077" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1625390414599" />
   </component>
 </project>
