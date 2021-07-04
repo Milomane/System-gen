@@ -17,20 +17,63 @@ MonoBehaviour:
   - enable: 1
     useFirstLayerAsMask: 0
     noiseSettings:
-      strength: 0.08
-      numLayers: 8
-      baseRoughness: 0.84
-      roughness: 2
-      persistance: 0.5
-      centre: {x: 0, y: 0, z: 0}
-      minValue: 1.03
+      filterType: 0
+      simpleNoiseSettings:
+        strength: 0.04
+        numLayers: 4
+        baseRoughness: 1.6
+        roughness: 2.66
+        persistance: 0.46
+        centre: {x: 0, y: 0, z: 0}
+        minValue: 0.9
+      rigidNoiseSettings:
+        strength: 1
+        numLayers: 1
+        baseRoughness: 1
+        roughness: 2
+        persistance: 0.5
+        centre: {x: 0, y: 0, z: 0}
+        minValue: 0
+        weightMultiplier: 0.8
   - enable: 1
     useFirstLayerAsMask: 1
     noiseSettings:
-      strength: 6
-      numLayers: 5
-      baseRoughness: 1.46
-      roughness: 2.17
-      persistance: 0.5
-      centre: {x: 5.57, y: 0, z: 0}
-      minValue: 1.15
+      filterType: 0
+      simpleNoiseSettings:
+        strength: 2.57
+        numLayers: 4
+        baseRoughness: 4.93
+        roughness: 2.1
+        persistance: 0.57
+        centre: {x: 5.64, y: 3.69, z: 32.66}
+        minValue: 1.21
+      rigidNoiseSettings:
+        strength: 1
+        numLayers: 1
+        baseRoughness: 1
+        roughness: 2
+        persistance: 0.5
+        centre: {x: 0, y: 0, z: 0}
+        minValue: 0
+        weightMultiplier: 0.8
+  - enable: 1
+    useFirstLayerAsMask: 1
+    noiseSettings:
+      filterType: 1
+      simpleNoiseSettings:
+        strength: 1
+        numLayers: 1
+        baseRoughness: 1
+        roughness: 2
+        persistance: 0.5
+        centre: {x: 0, y: 0, z: 0}
+        minValue: 0
+      rigidNoiseSettings:
+        strength: 1.7
+        numLayers: 7
+        baseRoughness: 0.85
+        roughness: 2
+        persistance: 0.74
+        centre: {x: 2.49, y: 2.01, z: 1.08}
+        minValue: 0.87
+        weightMultiplier: 1.31

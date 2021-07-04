@@ -11,15 +11,22 @@
           <e p="PlanetEditor.cs" t="Include" />
         </e>
         <e p="Scripts" t="Include">
-          <e p="NoiseFilter.cs" t="Include" />
+          <e p="ConditionalHideAttribute.cs" t="Include" />
+          <e p="Editor" t="Include">
+            <e p="ConditionalHidePropertyDrawer.cs" t="Include" />
+          </e>
+          <e p="INoiseFilter.cs" t="Include" />
+          <e p="NoiseFilterFactory.cs" t="Include" />
           <e p="NoiseSettings.cs" t="Include" />
           <e p="Planet.cs" t="Include" />
+          <e p="RigidNoiseFilter.cs" t="Include" />
           <e p="ScriptableObject" t="Include">
             <e p="ColoursSettings.cs" t="Include" />
             <e p="ShapeSettings.cs" t="Include" />
           </e>
           <e p="ShapeGenerator.cs" t="Include" />
           <e p="SimpleCameraController.cs" t="Include" />
+          <e p="SimpleNoiseFilter.cs" t="Include" />
           <e p="SimplexNoise" t="Include">
             <e p="Noise.cs" t="Include" />
           </e>
