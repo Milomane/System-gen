@@ -38,23 +38,23 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Class/Planet.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Generator.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ShapeSettings.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/TerrainFace.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SimplexNoise/Noise.cs" />
         <option value="$PROJECT_DIR$/Assets/Editor/PlanetEditor.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ScriptableObject/ShapeSettings.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/NoiseFilter.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/INoiseFilter.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/SimpleNoiseFilter.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/RigidNoiseFilter.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/NoiseFilterFactory.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Editor/ConditionalHideAttribute.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Editor/ConditionalHidePropertyDrawer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/NoiseSettings.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MinMax.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ShapeGenerator.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Planet.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/RigidNoiseFilter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SimpleNoiseFilter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ShapeGenerator.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ScriptableObject/ColoursSettings.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ColourGenerator.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TerrainFace.cs" />
       </list>
     </option>
   </component>
@@ -113,7 +113,7 @@
       <workItem from="1625331212331" duration="10255000" />
       <workItem from="1625343192258" duration="759000" />
       <workItem from="1625344018956" duration="7677000" />
-      <workItem from="1625386004327" duration="7020000" />
+      <workItem from="1625386004327" duration="15577000" />
     </task>
     <servers />
   </component>

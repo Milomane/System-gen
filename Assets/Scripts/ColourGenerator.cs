@@ -7,19 +7,21 @@ public class ColourGenerator
     private ColoursSettings settings;
     private Texture2D texture;
     private Texture2D smoothnessTexture;
-    private const int textureResolution = 150;
+    private const int textureResolution = 50;
+    private INoiseFilter biomeNoiseFilter;
 
     public void UpdateSettings(ColoursSettings settings)
     {
         this.settings = settings;
-        if (texture == null)
+        if (texture == null || texture.height != settings.biomeColourSettings.biomes.Length)
         {
-            texture = new Texture2D(textureResolution, 1);
+            texture = new Texture2D(textureResolution * 2, settings.biomeColourSettings.biomes.Length, TextureFormat.RGBA32, false);
         }
-        if (smoothnessTexture == null)
+        if (smoothnessTexture == null || texture.height != settings.biomeColourSettings.biomes.Length)
         {
-            smoothnessTexture = new Texture2D(textureResolution, 1);
+            smoothnessTexture = new Texture2D(textureResolution, settings.biomeColourSettings.biomes.Length, TextureFormat.RGBA32, false);
         }
+        biomeNoiseFilter = NoiseFilterFactory.CreateNoiseFilter(settings.biomeColourSettings.noise);
     }
 
     public void UpdateElevation(MinMax elevationMinMax)
@@ -27,15 +29,54 @@ public class ColourGenerator
         settings.planetMaterial.SetVector("_elevationMinMax", new Vector4(elevationMinMax.Min, elevationMinMax.Max));
     }
 
+    public float BiomePercentFromPoint(Vector3 pointOnUnitSphere)
+    {
+        float heightPercent = (pointOnUnitSphere.y + 1) / 2f;
+        heightPercent += (biomeNoiseFilter.Evaluate(pointOnUnitSphere) - settings.biomeColourSettings.noiseOffset) * settings.biomeColourSettings.noiseStrength;
+        
+        float biomeIndex = 0;
+        int numBiomes = settings.biomeColourSettings.biomes.Length;
+        float blendRange = settings.biomeColourSettings.blendAmount / 2 + .001f;
+
+        for (int i = 0; i < numBiomes; i++)
+        {
+            float dst = heightPercent - settings.biomeColourSettings.biomes[i].startHeight;
+            float weight = Mathf.InverseLerp(-blendRange, blendRange, dst);
+            biomeIndex *= (1 - weight);
+            biomeIndex += i * weight;
+        }
+
+        return biomeIndex / Mathf.Max(1, numBiomes - 1);
+    }
+
     public void UpdateColours()
     {
-        Color[] textureColours = new Color[textureResolution];
-        Color[] smoothnessColours = new Color[textureResolution];
-        for (int i = 0; i < textureResolution; i++)
+        Color[] textureColours = new Color[texture.width * texture.height];
+        Color[] smoothnessColours = new Color[texture.width * texture.height];
+        int colourIndex = 0;
+        
+        foreach (var biome in settings.biomeColourSettings.biomes)
         {
-            textureColours[i] = settings.textureGradient.Evaluate(i / (textureResolution - 1f));
-            smoothnessColours[i] = settings.smoothnessGradient.Evaluate(i / (textureResolution - 1f));
+            for (int i = 0; i < textureResolution * 2; i++)
+            {
+                Color texGradientCol;
+                if (i < textureResolution)
+                {
+                    texGradientCol = settings.oceanColour.Evaluate(i / (textureResolution - 1f));
+                }
+                else
+                {
+                    texGradientCol = biome.textureGradient.Evaluate((i - textureResolution) / (textureResolution - 1f));
+                }
+                
+                
+                Color tintCol = biome.tint;
+                textureColours[colourIndex] = texGradientCol * (1 - biome.tintPercent) + tintCol * biome.tintPercent;
+                
+                colourIndex++;
+            }
         }
+        
         texture.SetPixels(textureColours);
         texture.Apply();
         
@@ -43,6 +84,5 @@ public class ColourGenerator
         smoothnessTexture.Apply();
         
         settings.planetMaterial.SetTexture("_texture", texture);
-        settings.planetMaterial.SetTexture("_smoothnessTexture", smoothnessTexture);
     }
 }
