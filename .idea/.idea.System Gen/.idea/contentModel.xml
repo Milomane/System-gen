@@ -19,6 +19,7 @@
           <e p="NoiseFilterFactory.cs" t="Include" />
           <e p="NoiseSettings.cs" t="Include" />
           <e p="Planet.cs" t="Include" />
+          <e p="Quadtree.cs" t="Include" />
           <e p="RigidNoiseFilter.cs" t="Include" />
           <e p="ScriptableObject" t="Include">
             <e p="ColoursSettings.cs" t="Include" />
@@ -30,7 +31,8 @@
           <e p="SimplexNoise" t="Include">
             <e p="Noise.cs" t="Include" />
           </e>
-          <e p="TerrainFace.cs" t="Include" />
+          <e p="TerrainFaceChunk.cs" t="Include" />
+          <e p="TerrainFaceChunkManager.cs" t="Include" />
         </e>
         <e p="TutorialInfo" t="Include">
           <e p="Scripts" t="Include">

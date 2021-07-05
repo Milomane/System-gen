@@ -18,13 +18,16 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/NoiseSettings.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Planet.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/RigidNoiseFilter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TerrainFaceChunk.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ShapeGenerator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TerrainFaceChunkManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/ADFA4B62-4008-4918-9388-DF71C9E26E89/4a/dd0df045/Renderer.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MinMax.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TerrainFace.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SimpleNoiseFilter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SimplexNoise/Noise.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Quadtree.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Editor/PlanetEditor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SimpleCameraController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/Desktop/Generator.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ColourGenerator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/INoiseFilter.cs" root0="FORCE_HIGHLIGHTING" />
@@ -48,13 +51,16 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Editor/ConditionalHidePropertyDrawer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/NoiseSettings.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MinMax.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Planet.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/RigidNoiseFilter.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SimpleNoiseFilter.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ShapeGenerator.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ScriptableObject/ColoursSettings.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ColourGenerator.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TerrainFace.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Planet.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TerrainFaceChunkManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TerrainFaceChunk.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Quadtree.cs" />
       </list>
     </option>
   </component>
@@ -70,6 +76,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="TWShift.4" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
@@ -113,7 +120,8 @@
       <workItem from="1625331212331" duration="10255000" />
       <workItem from="1625343192258" duration="759000" />
       <workItem from="1625344018956" duration="7677000" />
-      <workItem from="1625386004327" duration="23288000" />
+      <workItem from="1625386004327" duration="29518000" />
+      <workItem from="1625478096675" duration="6185000" />
     </task>
     <servers />
   </component>
@@ -123,9 +131,13 @@
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
   <component name="WindowStateProjectService">
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1625390414599">
+    <state x="922" y="167" key="SettingsEditor" timestamp="1625488468779">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1625390414599" />
+    <state x="922" y="167" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1625488468779" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1625424200882">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1625424200882" />
   </component>
 </project>
