@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -27,6 +28,19 @@ public class Planet : MonoBehaviour
     [SerializeField, HideInInspector]
     private TerrainFaceChunkManager[] terrainFacesChunkManager;
 
+    public Transform player;
+
+    public static Dictionary<int, float> detailsLevelDistances = new Dictionary<int, float>()
+    {
+        {0, 1f},
+        {1, .75f},
+        {2, .6f},
+        {3, .4f},
+        {4, .2f},
+        {5, .125f},
+        {6, .075f}
+    };
+
     void Initialize()
     {
         shapeGenerator.UpdateSettings(shapeSettings);
@@ -51,7 +65,7 @@ public class Planet : MonoBehaviour
                 terrainFacesChunkManager[i] = chunkManagerObj.AddComponent<TerrainFaceChunkManager>();
             }
             
-            terrainFacesChunkManager[i].Initialize(shapeGenerator, resolution, directions[i], chunkPerFaceLine, colourSettings);
+            terrainFacesChunkManager[i].Initialize(shapeGenerator, colourGenerator, resolution, directions[i], chunkPerFaceLine, colourSettings, player);
             
             bool renderFace = faceRenderMask == FaceRenderMask.All || (int) faceRenderMask - 1 == i;
             terrainFacesChunkManager[i].gameObject.SetActive(renderFace);
@@ -60,6 +74,12 @@ public class Planet : MonoBehaviour
 
     public void GeneratePlanet()
     {
+        foreach (var tcm in terrainFacesChunkManager)
+        {
+            if (tcm != null)
+                DestroyImmediate(tcm.gameObject);
+        }
+        
         Initialize();
         GenerateMesh();
         GenerateColours();
@@ -108,9 +128,29 @@ public class Planet : MonoBehaviour
             }
         }
     }
-    
+
+    public void UpdateLoD()
+    {
+        for (int i = 0; i < 6; i++)
+        {
+            if (terrainFacesChunkManager[i].gameObject.activeSelf)
+            {
+                terrainFacesChunkManager[i].UpdateChildren(colourGenerator);
+            }
+        }
+    }
+
+    private void Start()
+    {
+        Initialize();
+        GenerateMesh();
+        GenerateColours();
+        
+        //InvokeRepeating("UpdateLoD", 0f, 1f);
+    }
+
     void Update()
     {
-        
+        UpdateLoD();
     }
 }

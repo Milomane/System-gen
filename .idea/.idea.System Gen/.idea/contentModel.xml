@@ -11,6 +11,7 @@
           <e p="ConditionalHidePropertyDrawer.cs" t="Include" />
           <e p="PlanetEditor.cs" t="Include" />
         </e>
+        <e p="Free3DMovement.cs" t="Include" />
         <e p="Scripts" t="Include">
           <e p="ColourGenerator.cs" t="Include" />
           <e p="ConditionalHideAttribute.cs" t="Include" />
