@@ -103,7 +103,8 @@ public class TerrainFaceChunk
                 child.DeactivateChildren();
                 if (child.meshFilter != null)
                 {
-                    child.meshFilter.gameObject.SetActive(false);
+                    if (child.meshFilter.gameObject.activeInHierarchy)
+                        child.meshFilter.gameObject.SetActive(false);
                 }
             }
         }
@@ -122,7 +123,8 @@ public class TerrainFaceChunk
             {
                 if (CheckIfChildrenMeshAreGenerated())
                 {
-                    meshFilter.gameObject.SetActive(false);
+                    if (meshFilter.gameObject.activeInHierarchy)
+                        meshFilter.gameObject.SetActive(false);
                 }
             }
         }
@@ -229,7 +231,6 @@ public class TerrainFaceChunk
 
     public void ApplyMesh(MeshData meshData)
     {
-        Debug.Log("Apply");
         mesh.vertices = meshData.vertices;
         mesh.triangles = meshData.triangles;
         mesh.uv = meshData.uv;

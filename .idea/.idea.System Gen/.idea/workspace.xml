@@ -60,8 +60,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Quadtree.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ShapeGenerator.cs" />
         <option value="$PROJECT_DIR$/Assets/Free3DMovement.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/TerrainFaceChunkManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Planet.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TerrainFaceChunkManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TerrainFaceChunk.cs" />
       </list>
     </option>
@@ -124,7 +124,7 @@
       <workItem from="1625344018956" duration="7677000" />
       <workItem from="1625386004327" duration="29518000" />
       <workItem from="1625478096675" duration="18387000" />
-      <workItem from="1625566669201" duration="15779000" />
+      <workItem from="1625566669201" duration="17866000" />
     </task>
     <servers />
   </component>
